@@ -17,3 +17,7 @@ MonoBehaviour:
     Lines:
     - StartSecond: 0
       Text: Water rushing
+  - clip: {fileID: 8300000, guid: 28b85e10f376f0f47868e11d36b707c9, type: 3}
+    Lines:
+    - StartSecond: 0
+      Text: Water Droplets

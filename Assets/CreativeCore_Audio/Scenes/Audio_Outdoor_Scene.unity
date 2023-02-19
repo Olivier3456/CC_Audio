@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 24768931}
   - component: {fileID: 24768930}
+  - component: {fileID: 24768932}
   m_Layer: 0
   m_Name: Waterfall Audio
   m_TagString: Untagged
@@ -251,6 +252,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &24768932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 24768929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72071924f6236c14f87c58f0f7986ae9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CanvasPrefab: {fileID: 8870750303014381627, guid: 3af81b2bb22b60348b47e8d0605411fe, type: 3}
+  AlwaysTracked: 1
+  MaxDistance: 15
+  Scale: 1
+  DynamicScale: 0
+  RootOffset: {x: 0, y: 0, z: 0}
 --- !u!1 &47128980
 GameObject:
   m_ObjectHideFlags: 0
@@ -285,6 +304,11 @@ Transform:
   m_Father: {fileID: 500687203}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -26.679, z: 0}
+--- !u!1 &67223186 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8489952446011086177, guid: c622e5b90376f0a4f815a11f9985af8a, type: 3}
+  m_PrefabInstance: {fileID: 360896160}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &145353334 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3800728945479800436, guid: c622e5b90376f0a4f815a11f9985af8a, type: 3}
@@ -2802,6 +2826,71 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1212472419}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1261459917
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3162867022280216862, guid: 358b0eb736b06da40986b005d9aa1146, type: 3}
+      propertyPath: m_Name
+      value: CCSystem
+      objectReference: {fileID: 0}
+    - target: {fileID: 3208528211867408455, guid: 358b0eb736b06da40986b005d9aa1146, type: 3}
+      propertyPath: TrackedForPos
+      value: 
+      objectReference: {fileID: 67223186}
+    - target: {fileID: 4466140682290739967, guid: 358b0eb736b06da40986b005d9aa1146, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4954665676858572601, guid: 358b0eb736b06da40986b005d9aa1146, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4954665676858572601, guid: 358b0eb736b06da40986b005d9aa1146, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4954665676858572601, guid: 358b0eb736b06da40986b005d9aa1146, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4954665676858572601, guid: 358b0eb736b06da40986b005d9aa1146, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4954665676858572601, guid: 358b0eb736b06da40986b005d9aa1146, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4954665676858572601, guid: 358b0eb736b06da40986b005d9aa1146, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4954665676858572601, guid: 358b0eb736b06da40986b005d9aa1146, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4954665676858572601, guid: 358b0eb736b06da40986b005d9aa1146, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4954665676858572601, guid: 358b0eb736b06da40986b005d9aa1146, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4954665676858572601, guid: 358b0eb736b06da40986b005d9aa1146, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4954665676858572601, guid: 358b0eb736b06da40986b005d9aa1146, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 358b0eb736b06da40986b005d9aa1146, type: 3}
 --- !u!1 &1262762729
 GameObject:
   m_ObjectHideFlags: 0
@@ -3415,6 +3504,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1625543427}
   - component: {fileID: 1625543426}
+  - component: {fileID: 1625543428}
   m_Layer: 0
   m_Name: Cave Water Drops Audio
   m_TagString: Untagged
@@ -3533,6 +3623,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1625543428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1625543425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72071924f6236c14f87c58f0f7986ae9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CanvasPrefab: {fileID: 8870750303014381627, guid: 3af81b2bb22b60348b47e8d0605411fe, type: 3}
+  AlwaysTracked: 1
+  MaxDistance: 6
+  Scale: 1
+  DynamicScale: 0
+  RootOffset: {x: 0, y: 0, z: 0}
 --- !u!1 &1634677525
 GameObject:
   m_ObjectHideFlags: 0
