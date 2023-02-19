@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 015e9e492ced157498913c229c9f2a6c, type: 3}
-  m_Name: CCDatabase
+  m_Name: Waterfall Scene Database
   m_EditorClassIdentifier: 
   DatabaseEntries:
   - clip: {fileID: 8300000, guid: e9f8a2ce35edcd14aa4a811eed483b42, type: 3}
     Lines:
     - StartSecond: 0
-      Text: '[Water rushing]'
+      Text: Water rushing
